@@ -8,6 +8,7 @@ public class Armstrong_Number {
         System.out.print("Enter a number to check if it is an Armstrong number: ");
 
         int num = sc.nextInt();
+		sc.close();
         if (isArmstrong(num)) {
             System.out.println(num + " is an Armstrong number.");
         } else {
